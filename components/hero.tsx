@@ -1,6 +1,7 @@
 "use client";
 
-import { Brain, Sparkles, Heart, Users } from "lucide-react";
+import Image from "next/image";
+import { Sparkles, Heart, Users } from "lucide-react";
 
 export function Hero() {
   return (
@@ -15,16 +16,39 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 text-center max-w-4xl mx-auto">
-        {/* Logo/Icon */}
-        <div className="inline-flex items-center justify-center w-24 h-24 bg-primary/10 rounded-3xl mb-8 animate-bounce-soft">
-          <Brain className="w-12 h-12 text-primary" />
+        {/* Logo with sparkles */}
+        <div className="relative inline-flex items-center justify-center mb-6 animate-bounce-soft p-4 rounded-3xl bg-gradient-to-br from-white/50 to-white/20 backdrop-blur-sm shadow-xl shadow-pink/10">
+          {/* Sparkles */}
+          <span className="absolute top-2 right-4 w-2 h-2 bg-pink rounded-full animate-sparkle opacity-80" />
+          <span className="absolute top-6 right-2 w-1.5 h-1.5 bg-blue rounded-full animate-sparkle animation-delay-200 opacity-70" />
+          <span className="absolute top-3 left-5 w-1.5 h-1.5 bg-yellow rounded-full animate-sparkle animation-delay-400 opacity-80" />
+          <span className="absolute bottom-6 right-5 w-2 h-2 bg-green rounded-full animate-sparkle animation-delay-600 opacity-70" />
+          <span className="absolute bottom-4 left-3 w-1 h-1 bg-orange rounded-full animate-sparkle animation-delay-800 opacity-80" />
+          <span className="absolute top-1/2 right-1 w-1.5 h-1.5 bg-pink rounded-full animate-sparkle animation-delay-300 opacity-60" />
+          <span className="absolute top-8 left-2 w-1 h-1 bg-blue rounded-full animate-sparkle animation-delay-500 opacity-70" />
+          <span className="absolute bottom-8 left-6 w-1.5 h-1.5 bg-yellow rounded-full animate-sparkle animation-delay-700 opacity-80" />
+          
+          <Image
+            src="/images/logo.png?v=3"
+            alt="מוח אחד - לוגו"
+            width={140}
+            height={140}
+            className="drop-shadow-md relative z-10"
+            priority
+            unoptimized
+          />
         </div>
 
         {/* Main Title */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 text-balance">
           <span className="text-primary">מוח</span>{" "}
           <span className="text-secondary">אחד</span>
         </h1>
+        
+        {/* Tagline */}
+        <p className="text-lg md:text-xl text-muted-foreground mb-6">
+          אינטגרציה. חשיבה. דינמיקה
+        </p>
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed text-pretty">

@@ -1,69 +1,96 @@
 "use client";
 
-import { Gamepad2, ExternalLink } from "lucide-react";
+import { 
+  ExternalLink, 
+  Users, 
+  Trophy, 
+  ShoppingCart, 
+  Tractor, 
+  Layers, 
+  Stars, 
+  Fish 
+} from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "משחק הזיכרון",
-    description: "משחק זיכרון צבעוני ומהנה לשיפור הריכוז והזיכרון",
+    title: "גיבור במכשולים",
+    description: "משחק מרתק של התמודדות עם מכשולים",
     link: "#project-1",
-    color: "bg-pink",
-    hoverBorder: "hover:border-pink",
-    iconBg: "bg-pink/10",
-    iconColor: "text-pink",
-    btnClass: "bg-pink hover:bg-pink/90",
+    color: "bg-orange",
+    hoverBorder: "hover:border-orange",
+    iconBg: "bg-orange/10",
+    iconColor: "text-orange",
+    btnClass: "bg-orange hover:bg-orange/90",
+    icon: Trophy,
+    techStudent: "אפרת מדמון",
+    specialStudents: ["אביגיל נורי", "חגית חגג", "מיכל טביב", "מיכל מאונטה"],
   },
   {
-    title: "חידון המתמטיקה",
-    description: "תרגול פעולות חשבון בסיסיות בצורה משחקית ומהנה",
+    title: "אלוף הקניות",
+    description: "משחק לתרגול קניות וניהול כסף",
     link: "#project-2",
-    color: "bg-blue",
-    hoverBorder: "hover:border-blue",
-    iconBg: "bg-blue/10",
-    iconColor: "text-blue",
-    btnClass: "bg-blue hover:bg-blue/90",
+    color: "bg-purple",
+    hoverBorder: "hover:border-purple",
+    iconBg: "bg-purple/10",
+    iconColor: "text-purple",
+    btnClass: "bg-purple hover:bg-purple/90",
+    icon: ShoppingCart,
+    techStudent: "הדסה מסימי",
+    specialStudents: ["שפרה רחמים", "שרה דבורה בן שלום", "הילה עמר", "מזל חטאב"],
   },
   {
-    title: "הרפתקת האותיות",
-    description: "לימוד וזיהוי אותיות בעברית דרך משחק אינטראקטיבי",
+    title: "מסיבה בחווה",
+    description: "משחק חוויתי בעולם החווה",
     link: "#project-3",
     color: "bg-green",
     hoverBorder: "hover:border-green",
     iconBg: "bg-green/10",
     iconColor: "text-green",
     btnClass: "bg-green hover:bg-green/90",
+    icon: Tractor,
+    techStudent: "אבישג נסיר",
+    specialStudents: ["שרה בן סעדון", "צפורה רפאלוב", "אילה עטרי", "הדס דמרי"],
   },
   {
-    title: "מיון הצבעים",
-    description: "משחק מיון וזיהוי צבעים לפיתוח חשיבה לוגית",
+    title: "רמי",
+    description: "משחק רמי מהנה ומאתגר",
     link: "#project-4",
-    color: "bg-yellow",
-    hoverBorder: "hover:border-yellow",
-    iconBg: "bg-yellow/10",
-    iconColor: "text-yellow",
-    btnClass: "bg-yellow hover:bg-yellow/90 text-foreground",
+    color: "bg-blue-purple",
+    hoverBorder: "hover:border-blue-purple",
+    iconBg: "bg-blue-purple/10",
+    iconColor: "text-blue-purple",
+    btnClass: "bg-blue-purple hover:bg-blue-purple/90",
+    icon: Layers,
+    techStudent: "חנה כהן",
+    specialStudents: ["טליה סרוסי", "גילי מנשה", "טליה שניאור"],
   },
   {
-    title: "פאזל החיות",
-    description: "הרכבת פאזלים של חיות מוכרות לפיתוח מוטוריקה עדינה",
-    link: "#project-5",
-    color: "bg-purple",
-    hoverBorder: "hover:border-purple",
-    iconBg: "bg-purple/10",
-    iconColor: "text-purple",
-    btnClass: "bg-purple hover:bg-purple/90",
+    title: "כתוב בכוכבים",
+    description: "משחק יצירתי של כתיבה וכוכבים",
+    link: "https://onebrainspecialneed-tech.github.io/WrittenInTheStars/",
+    color: "bg-night-blue",
+    hoverBorder: "hover:border-night-blue",
+    iconBg: "bg-night-blue/10",
+    iconColor: "text-night-blue",
+    btnClass: "bg-night-blue hover:bg-night-blue/90",
+    icon: Stars,
+    techStudent: "ניראל טויטו",
+    specialStudents: ["אילה מועלם", "נעמי דניאל", "יהודית אזולאי"],
   },
   {
-    title: "מסע הצלילים",
-    description: "זיהוי והתאמת צלילים לפיתוח הקשבה וריכוז",
+    title: "דיג בצלילים",
+    description: "משחק דיג מרתק ומהנה",
     link: "#project-6",
-    color: "bg-orange",
-    hoverBorder: "hover:border-orange",
-    iconBg: "bg-orange/10",
-    iconColor: "text-orange",
-    btnClass: "bg-orange hover:bg-orange/90",
+    color: "bg-sea-blue",
+    hoverBorder: "hover:border-sea-blue",
+    iconBg: "bg-sea-blue/10",
+    iconColor: "text-sea-blue",
+    btnClass: "bg-sea-blue hover:bg-sea-blue/90",
+    icon: Fish,
+    techStudent: "אביה עטרי",
+    specialStudents: ["הילה זרגרי", "אפרת בר משה", "אנאל גבאי", "הדסה זכריה"],
   },
 ];
 
@@ -90,7 +117,7 @@ export function ProjectsSection() {
             
             <CardHeader className="pb-3">
               <div className={`inline-flex items-center justify-center w-14 h-14 ${project.iconBg} rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                <Gamepad2 className={`w-7 h-7 ${project.iconColor}`} />
+                <project.icon className={`w-7 h-7 ${project.iconColor}`} />
               </div>
               <CardTitle className="text-xl">{project.title}</CardTitle>
               <CardDescription className="text-base leading-relaxed">
@@ -98,7 +125,51 @@ export function ProjectsSection() {
               </CardDescription>
             </CardHeader>
             
-            <CardContent>
+            <CardContent className="space-y-4">
+              {/* Students section */}
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 text-sm font-bold text-foreground">
+                  <Users className="w-4 h-4" />
+                  <span>צוות הפיתוח</span>
+                </div>
+                
+                {/* Tech student */}
+                <div className={`${project.iconBg} rounded-xl p-3 border-2 border-dashed ${project.hoverBorder.replace('hover:', '')}`}>
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className={`text-xs font-bold ${project.iconColor} uppercase tracking-wide`}>מגמת טכנולוגיה</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className={`w-8 h-8 rounded-full ${project.color} flex items-center justify-center text-white font-bold text-sm`}>
+                      {project.techStudent.charAt(0)}
+                    </div>
+                    <span className="font-semibold">{project.techStudent}</span>
+                  </div>
+                </div>
+
+                {/* Special education students */}
+                <div className="bg-gradient-to-br from-muted/80 to-muted/40 rounded-xl p-3 border border-border/50">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-xs font-bold text-pink uppercase tracking-wide">מגמת חינוך מיוחד</span>
+                    <span className={`inline-flex items-center justify-center px-2 py-0.5 rounded-full ${project.color} text-white text-xs font-bold`}>
+                      {project.specialStudents.length}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    {project.specialStudents.map((student, i) => (
+                      <div 
+                        key={i} 
+                        className="flex items-center gap-2 bg-background/80 backdrop-blur-sm px-2.5 py-2 rounded-lg border border-border/50 hover:border-pink/50 transition-colors"
+                      >
+                        <div className="w-6 h-6 rounded-full bg-gradient-to-br from-pink to-blue flex items-center justify-center text-white font-bold text-xs shrink-0">
+                          {student.charAt(0)}
+                        </div>
+                        <span className="text-sm font-medium truncate">{student}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
               <Button 
                 asChild 
                 className={`w-full ${project.btnClass} text-white`}
