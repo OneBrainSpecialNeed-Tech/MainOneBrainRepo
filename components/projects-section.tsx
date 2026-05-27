@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     title: "גיבור במכשולים",
-    description: "משחק מרתק של התמודדות עם מכשולים",
+    description: "משחק קריאה מרתק עם התמודדות עם מכשולים",
     link: "#project-1",
     color: "bg-orange",
     hoverBorder: "hover:border-orange",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: "אלוף הקניות",
-    description: "משחק לתרגול קניות וניהול כסף",
+    description:"משחק לתרגול קריאה דרך קניות בחנות",
     link: "#project-2",
     color: "bg-purple",
     hoverBorder: "hover:border-purple",
@@ -42,7 +42,7 @@ const projects = [
   },
   {
     title: "מסיבה בחווה",
-    description: "משחק חוויתי בעולם החווה",
+    description: "משחק קריאה חוויתי בעולם החווה",
     link: "#project-3",
     color: "bg-green",
     hoverBorder: "hover:border-green",
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: "רמי",
-    description: "משחק רמי מהנה ומאתגר",
+    description: "משחק בניית מילים בסגנון רמי מהנה ומאתגר",
     link: "#project-4",
     color: "bg-blue-purple",
     hoverBorder: "hover:border-blue-purple",
@@ -81,7 +81,7 @@ const projects = [
   },
   {
     title: "דיג בצלילים",
-    description: "משחק דיג מרתק ומהנה",
+    description: "משחק קריאה דיג מרתק ומהנה",
     link: "#project-6",
     color: "bg-sea-blue",
     hoverBorder: "hover:border-sea-blue",

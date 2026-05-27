@@ -1,14 +1,22 @@
 "use client";
 
-import { Heart, Brain } from "lucide-react";
+import Image from "next/image";
+import { Heart } from "lucide-react";
 
 export function Footer() {
   return (
     <footer className="bg-muted/50 py-12 px-4 mt-16">
       <div className="max-w-4xl mx-auto text-center">
         {/* Logo */}
-        <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-xl mb-4">
-          <Brain className="w-6 h-6 text-primary" />
+        <div className="inline-flex items-center justify-center w-14 h-14 mb-4">
+          <Image
+            src="/images/logo.png"
+            alt="מוח אחד - לוגו"
+            width={56}
+            height={56}
+            className="drop-shadow-sm"
+            unoptimized
+          />
         </div>
         
         {/* About text */}

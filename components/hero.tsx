@@ -29,7 +29,7 @@ export function Hero() {
           <span className="absolute bottom-8 left-6 w-1.5 h-1.5 bg-yellow rounded-full animate-sparkle animation-delay-700 opacity-80" />
           
           <Image
-            src="/images/logo.png?v=3"
+            src="/images/logo.png"
             alt="מוח אחד - לוגו"
             width={140}
             height={140}
