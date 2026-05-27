@@ -30,13 +30,14 @@ export function Footer() {
           <p className="text-sm font-semibold text-foreground mb-3">בהנחיית</p>
           <div className="space-y-2 text-sm text-muted-foreground">
             <p>
-              <span className="font-medium text-foreground">מגמת טכנולוגיה:</span>{" "}
-              אסתר סחייק
+              <span className="font-medium text-foreground">מגמת חינוך מיוחד:</span>{" "}
+              גב' חנה שפירא 
             </p>
             <p>
-              <span className="font-medium text-foreground">מגמת חינוך מיוחד:</span>{" "}
-              חנה שפירא
+              <span className="font-medium text-foreground">מגמת טכנולוגיה:</span>{" "}
+              גב' אסתר סחייק
             </p>
+            
           </div>
         </div>
         
