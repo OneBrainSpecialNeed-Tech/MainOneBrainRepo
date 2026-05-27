@@ -52,9 +52,12 @@ export function Hero() {
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed text-pretty">
-          פרויקט סמינריון המחבר בין תלמידי טכנולוגיה לתלמידי חינוך מיוחד
+          פרויקט סמינר תהילה — שיתוף פעולה של תלמידות ממגמת טכנולוגיה
+          וממגמת חינוך מיוחד
           <br />
-          <span className="text-foreground font-medium">יצירה משותפת של משחקים חינוכיים</span>
+          <span className="text-foreground font-medium">
+            ביצירה משותפת של משחקים חינוכיים
+          </span>
         </p>
 
         {/* Feature pills */}
