@@ -43,7 +43,7 @@ const projects = [
   {
     title: "מסיבה בחווה",
     description: "משחק קריאה חוויתי בעולם החווה",
-    link: "#project-3",
+    link: "https://onebrainspecialneed-tech.github.io/FarmParty/",
     color: "bg-green",
     hoverBorder: "hover:border-green",
     iconBg: "bg-green/10",

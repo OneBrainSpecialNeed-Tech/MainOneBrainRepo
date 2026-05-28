@@ -56,7 +56,7 @@ export function Hero() {
           וממגמת חינוך מיוחד
           <br />
           <span className="text-foreground font-medium">
-            ביצירה משותפת של משחקים חינוכיים
+            ביצירה משותפת של משחקים דידקטיים
           </span>
         </p>
 
