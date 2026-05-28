@@ -17,7 +17,7 @@ const projects = [
   {
     title: "גיבור במכשולים",
     description: "משחק קריאה מרתק עם התמודדות עם מכשולים",
-    link: "#project-1",
+    link: "https://onebrainspecialneed-tech.github.io/ObstacleHero/",
     color: "bg-orange",
     hoverBorder: "hover:border-orange",
     iconBg: "bg-orange/10",
