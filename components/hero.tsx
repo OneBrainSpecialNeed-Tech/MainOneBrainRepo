@@ -52,7 +52,10 @@ export function Hero() {
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed text-pretty">
-          פרויקט סמינר תהילה — שיתוף פעולה של תלמידות ממגמת טכנולוגיה
+          <span className="text-foreground font-medium">
+           פרוייקט סמינר תהילה
+          </span>
+            שיתוף פעולה של תלמידות ממגמת טכנולוגיה
           וממגמת חינוך מיוחד
           <br />
           <span className="text-foreground font-medium">
