@@ -55,6 +55,7 @@ export function Hero() {
           <span className="text-foreground font-medium">
            פרוייקט סמינר תהילה
           </span>
+          <br />
             שיתוף פעולה של תלמידות ממגמת טכנולוגיה
           וממגמת חינוך מיוחד
           <br />
