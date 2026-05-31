@@ -30,7 +30,7 @@ const projects = [
   {
     title: "אלוף הקניות",
     description:"משחק לתרגול קריאה דרך קניות בחנות",
-    link: "#project-2",
+    link: "https://onebrainspecialneed-tech.github.io/Shopping/",
     color: "bg-purple",
     hoverBorder: "hover:border-purple",
     iconBg: "bg-purple/10",
