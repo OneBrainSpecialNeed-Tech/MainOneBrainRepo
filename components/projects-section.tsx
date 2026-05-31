@@ -56,7 +56,7 @@ const projects = [
   {
     title: "רמי",
     description: "משחק בניית מילים בסגנון רמי מהנה ומאתגר",
-    link: "#project-4",
+    link: "https://onebrainspecialneed-tech.github.io/RemiGame",
     color: "bg-blue-purple",
     hoverBorder: "hover:border-blue-purple",
     iconBg: "bg-blue-purple/10",
